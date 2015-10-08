@@ -11,9 +11,9 @@ print("Reading ~/.mullenrc for configuration...")
 config = configparser.ConfigParser()
 config.read(os.path.expanduser('~/.mullenrc'))
 
-Settings = config['settings']
-docDir = Settings['docDir']
-lastName = Settings['lastName'].upper()
+Settings = config['Mullen']
+docDir = Settings['Document_Dir']
+lastName = Settings['Last_Name'].upper()
 
 print("Document Dir: " + docDir)
 print("Last name: " + lastName)

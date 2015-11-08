@@ -1,15 +1,13 @@
 # :woman: - mullen
 Renames files for Ms. Mullen's English Class Standard
 ## Configuration
-Specify document directory and last name in ~/.mullenrc
+Specify parameters in mullen_cfg.text
 ````
 [Mullen]
-Document_Dir = $DOCUMENT_DIR
-Last_Name = $LASTNAME
+newDocDir = E:/School/2015-2016/English 2H/Harris
+oldDocDir = E:/School/2015-2016/English 2H/Mullen
+lastName = Harris
+namePrefix = English 2H - 
+namePrefixNeedsEndSpace = true
 ````
-For example:
-````
-[Mullen]
-Document_Dir = /home/john/documents/school/English
-Last_Name = smith
-````
+Run mullen.py to run script. 

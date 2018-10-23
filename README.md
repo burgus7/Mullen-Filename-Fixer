@@ -1,5 +1,9 @@
 # :woman: - mullen
 Renames files for Ms. Mullen's English Class Standard
+
+## Example
+Convert `English 2H - Nature Journal 4.docx` to `HARRIS_Nature_Journal_4.docx`
+
 ## Configuration
 Specify parameters in mullen_cfg.text
 ````
